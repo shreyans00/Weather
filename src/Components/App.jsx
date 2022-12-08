@@ -32,7 +32,7 @@ const App = () => {
             if (hrs > 12) hrs -= 12;
         }
         if (min < 10) min = "0" + min;
-        return `${hrs}:${min} ${per}`
+        return `${hrs}:${min} ${per}`;
     }
 
     useEffect(() => {
